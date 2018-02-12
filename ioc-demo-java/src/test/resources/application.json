@@ -1,0 +1,21 @@
+[
+  {
+    "name": "robot",
+    "className": "com.huluohu.ioc.entity.Robot"
+  },
+  {
+    "name": "hand",
+    "className": "com.huluohu.ioc.entity.Hand"
+  },
+  {
+    "name": "mouth",
+    "className": "com.huluohu.ioc.entity.Mouth",
+    "constructorArgs": [
+      {
+        "index": 1,
+        "name": "name",
+        "value": "hello"
+      }
+    ]
+  }
+]
